@@ -1,8 +1,11 @@
-class Student{
-      Pubic  String displayName(){
-            String name="Priya Rani";
-            String name = Student.displayName();
-            System.out.println("my name is : ");
-            return nmae;
-      }
+public class Student {
+	public String displayName() {
+	       String name,branch,emailId,address;
+	       int roll,age,appId;
+	       long mobileNo;
+	       char year,section;
+               name= "Priya Rani";
+               System.out.println("My name is : ");
+	       return name;  
+	}
 }
