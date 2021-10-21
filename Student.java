@@ -1,17 +1,15 @@
 public class Student {
 	String name,branch,emailId,address;
-	int roll,age,appId;
+	int roll,appId;
+	byte age,year;
 	long mobileNo;
-	char year,section;
+	char section;
+	float fee;
 	public  String displayName() {
-		String studentName=name;
+		String studentName="Priya Rani";
                 System.out.println("My name is : ");
 	        return studentName;
 	} 
-	public static void main(String[] args) {
-		Student s1 = new Student();
-	        s1.name="Priya Rani";
-		s1.displayName();
-	}
+	
 	
 }
