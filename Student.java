@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Student{
    String stuName;
    int addmiNo;
@@ -21,3 +22,20 @@ public class Student{
    
 
 }        
+=======
+public class Student {
+	String name,branch,emailId,address;
+	int roll,appId;
+	byte age,year;
+	long mobileNo;
+	char section;
+	float fee;
+	public  String displayName() {
+		String studentName="Priya Rani";
+                System.out.println("My name is : ");
+	        return studentName;
+	} 
+	
+	
+}
+>>>>>>> f65cc6e8934a47e77830900e77b69d9572fad2c8
