@@ -7,7 +7,8 @@ class College {
      long contactNo;
      int facultyNo;
      String hodName;	
-     boolean Ispravate;
+     boolean isPrivate;
+     boolean isHavingHostel;
 	
 	public String collegeName(){
 	      String colName="Bengal College of Engineering";
